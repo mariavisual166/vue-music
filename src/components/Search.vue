@@ -56,7 +56,6 @@ export default {
       selectedTrack: ''
     }
   },
-
   computed: {
     searchMessage () {
       return `Encontrados: ${this.tracks.length}`
@@ -72,7 +71,6 @@ export default {
       }
     }
   },
-
   methods: {
     search () {
       if (!this.searchQuery) { return }
@@ -86,7 +84,6 @@ export default {
           this.isLoading = false
         })
     },
-
     setSelectedTrack (id) {
       this.selectedTrack = id
     }
@@ -95,11 +92,6 @@ export default {
 </script>
 
 <style lang="scss">
-  .results {
-    margin-top: 50px;
-  }
-
-  .is-active {
-    border: 3px #23d160 solid;
-  }
+  .results {margin-top: 50px;}
+  .is-active {border: 3px #23d160 solid;}
 </style>

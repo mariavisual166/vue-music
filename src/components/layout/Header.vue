@@ -9,7 +9,6 @@
             .nav-right.nav-menu
               router-link.nav-item(:to="{ name: 'search' }") Buscar
               router-link.nav-item(to="about") Nosotros
-
     .hero-body
       .container.has-text-centered
         h1.title  Music
@@ -19,7 +18,6 @@
 
 <script>
 import PmPlayer from '@/components/Player.vue'
-
 export default {
   components: { PmPlayer }
 }
