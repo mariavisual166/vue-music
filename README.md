@@ -1,4 +1,4 @@
-# platzi-music
+# vue-music
 
 > App  Vue.js 
 
