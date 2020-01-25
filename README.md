@@ -1,6 +1,6 @@
 # platzi-music
 
-> App curso Vue.js de Platzi
+> App  Vue.js 
 
 ## Build Setup
 
